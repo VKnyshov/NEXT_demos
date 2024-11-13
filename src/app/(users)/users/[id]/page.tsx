@@ -10,7 +10,7 @@ const UserPage = async ({params}: { params: { id: string } }) => {
         <div>
             <h3>
 
-            <Link href={`/posts/${user.id}`}>{user.name}</Link>
+            <Link href={`/users/${user.id}/posts/`}>{user.name}</Link>
 
             </h3>
             <p>{user.username}</p>
